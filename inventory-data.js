@@ -4,7 +4,7 @@ window.SJ_INVENTORY = {
   "discountRange": "50%-80%",
   "totalProducts": 59,
   "totalQuantity": 371,
-  "missingImages": 8,
+  "missingImages": 7,
   "finishGuide": {
     "E23": "Glossy White",
     "E12": "Slate Gray",
@@ -758,12 +758,12 @@ window.SJ_INVENTORY = {
       "quantity": 5,
       "location": "R1A5: 5",
       "msrp": 2064.0,
-      "salePrice": 722.4,
-      "discount": 65,
-      "discountLabel": "65% off",
-      "image": null,
-      "hasPhoto": false,
-      "sourceNote": "No photo yet"
+      "salePrice": 619.2,
+      "discount": 70,
+      "discountLabel": "70% off",
+      "image": "assets/products/046-e026117-e40.jpg",
+      "hasPhoto": true,
+      "sourceNote": "Showroom photo supplied"
     },
     {
       "row": 47,
