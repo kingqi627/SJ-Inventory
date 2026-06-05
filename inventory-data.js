@@ -2,8 +2,8 @@ window.SJ_INVENTORY = {
   "generatedFrom": "SJ inventory grouped by kit combo and color variants - 2020 folder photos matched.xlsx",
   "poster": "assets/seasonal-sale-poster.png",
   "discountRange": "50%-80%",
-  "totalProducts": 60,
-  "totalQuantity": 381,
+  "totalProducts": 59,
+  "totalQuantity": 371,
   "missingImages": 8,
   "finishGuide": {
     "E23": "Glossy White",
@@ -66,52 +66,64 @@ window.SJ_INVENTORY = {
       "sourceNote": "2020 folder code match"
     },
     {
-      "row": 4,
-      "code": "034823.07-E23",
-      "name": "Jenna - 23\" legs w/open shelf-Glossy White",
+      "row": 6,
+      "code": "034823-E23 Kit",
+      "name": "Jenna/Ariella 23\" Vanity Kit - Glossy White",
       "finish": "Glossy White",
       "series": "Ariella/Jenna 23\" Glossy White",
       "quantity": 5,
-      "location": "R4A1: 5",
-      "msrp": null,
-      "salePrice": null,
-      "discount": 60,
-      "discountLabel": "60% off",
+      "location": "Cabinet 017823-E23: A2: 7; R2A3: 3 | Base 034823.07-E23: R4A1: 5",
+      "msrp": 1723.0,
+      "salePrice": 344.6,
+      "discount": 80,
+      "discountLabel": "80% off",
       "image": "assets/products/004-034823-07-e23.jpg",
       "hasPhoto": true,
-      "sourceNote": "Showroom photo supplied"
+      "sourceNote": "Kit card combines cabinet 017823-E23 with base 034823.07-E23.",
+      "componentDetails": [
+        {
+          "label": "Cabinet",
+          "code": "017823-E23",
+          "quantity": 10,
+          "location": "A2: 7; R2A3: 3"
+        },
+        {
+          "label": "Base / legs",
+          "code": "034823.07-E23",
+          "quantity": 5,
+          "location": "R4A1: 5"
+        }
+      ]
     },
     {
       "row": 5,
-      "code": "034823.07-E12",
-      "name": "Cabinet - Grey",
+      "code": "034823-E12 Kit",
+      "name": "Jenna 23\" Vanity Kit - Slate Gray",
       "finish": "Slate Gray",
       "series": "Jenna",
       "quantity": 15,
-      "location": "R1A2: 15",
+      "location": "Base 034823.07-E12: R1A2: 15",
       "msrp": null,
       "salePrice": null,
       "discount": 65,
       "discountLabel": "65% off",
       "image": null,
       "hasPhoto": false,
-      "sourceNote": "No photo yet"
-    },
-    {
-      "row": 6,
-      "code": "017823-E23",
-      "name": "Ariella - 23\" wall mount cabinet w/one large drawer & hidden drawer-Glossy White",
-      "finish": "Glossy White",
-      "series": "Ariella/Jenna 23\" Glossy White",
-      "quantity": 10,
-      "location": "A2: 7; R2A3: 3",
-      "msrp": 1723.0,
-      "salePrice": 344.6,
-      "discount": 80,
-      "discountLabel": "80% off",
-      "image": "assets/products/006-017823-e23.jpg",
-      "hasPhoto": true,
-      "sourceNote": "Same model high-res catalog image"
+      "sourceNote": "Kit card for 034823-E12; listed component is base 034823.07-E12.",
+      "componentDetails": [
+        {
+          "label": "Base / legs",
+          "code": "034823.07-E12",
+          "quantity": 15,
+          "location": "R1A2: 15"
+        },
+        {
+          "label": "Cabinet",
+          "code": "034823-E12",
+          "quantity": "not listed separately",
+          "location": "verify showroom stock"
+        }
+      ]
     },
     {
       "row": 7,
