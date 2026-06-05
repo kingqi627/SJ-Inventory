@@ -5,6 +5,33 @@ window.SJ_INVENTORY = {
   "totalProducts": 60,
   "totalQuantity": 381,
   "missingImages": 8,
+  "finishGuide": {
+    "E23": "Glossy White",
+    "E12": "Slate Gray",
+    "E19": "Graphite",
+    "E90": "Sabbia Beige",
+    "E75": "Sable Elm",
+    "E56": "American Walnut",
+    "E40": "Bristol Beige",
+    "E73": "Stone Gray",
+    "F08": "Cinnamon",
+    "F20": "Empire Gray",
+    "F07": "Vintage Walnut",
+    "F21": "Ocean Gray",
+    "F13": "Cafe Walnut",
+    "W01": "White",
+    "H01": "Dark Cherry",
+    "B02": "Black",
+    "B01": "Black",
+    "G47": "Glossy Empire Gray",
+    "E01": "Blush Taupe",
+    "BN": "Brushed Nickel",
+    "CG": "Cool Gray",
+    "BI": "Biscuit",
+    "B1": "Biscuit",
+    "WH": "White",
+    "CW": "Carrara White"
+  },
   "products": [
     {
       "row": 2,
@@ -48,11 +75,11 @@ window.SJ_INVENTORY = {
       "location": "R4A1: 5",
       "msrp": null,
       "salePrice": null,
-      "discount": 55,
-      "discountLabel": "55% off",
+      "discount": 60,
+      "discountLabel": "60% off",
       "image": "assets/products/004-034823-07-e23.jpg",
       "hasPhoto": true,
-      "sourceNote": "User supplied showroom photo IMG_7057.JPG"
+      "sourceNote": "Showroom photo supplied"
     },
     {
       "row": 5,
@@ -340,7 +367,7 @@ window.SJ_INVENTORY = {
       "discountLabel": "75% off",
       "image": "assets/products/022-018936-00-l-e12.jpg",
       "hasPhoto": true,
-      "sourceNote": "High-res old inventory image"
+      "sourceNote": "High-res old inventory image Direction variant pricing aligned."
     },
     {
       "row": 23,
@@ -350,13 +377,13 @@ window.SJ_INVENTORY = {
       "series": "Chloe",
       "quantity": 5,
       "location": "R1A1: 3; R2A4: 2",
-      "msrp": 2225.0,
-      "salePrice": 667.5,
-      "discount": 70,
-      "discountLabel": "70% off",
+      "msrp": 1935.0,
+      "salePrice": 483.75,
+      "discount": 75,
+      "discountLabel": "75% off",
       "image": "assets/products/023-018936-00-r-e12.jpg",
       "hasPhoto": true,
-      "sourceNote": "Same model high-res catalog image"
+      "sourceNote": "Same model high-res catalog image Direction variant pricing aligned. Image mirrored from 018936.00-L-E12."
     },
     {
       "row": 24,
@@ -452,7 +479,7 @@ window.SJ_INVENTORY = {
       "discountLabel": "70% off",
       "image": "assets/products/029-066236-l-e90.jpg",
       "hasPhoto": true,
-      "sourceNote": "Same model photo from 2020 folder"
+      "sourceNote": "Same model photo from 2020 folder Direction variant pricing aligned."
     },
     {
       "row": 30,
@@ -464,11 +491,11 @@ window.SJ_INVENTORY = {
       "location": "R2A4: 2; R2A2: 1",
       "msrp": null,
       "salePrice": null,
-      "discount": 60,
-      "discountLabel": "60% off",
+      "discount": 70,
+      "discountLabel": "70% off",
       "image": "assets/products/030-066236-r-e90.jpg",
       "hasPhoto": true,
-      "sourceNote": "Same model photo from 2020 folder"
+      "sourceNote": "Same model photo from 2020 folder Direction variant pricing aligned. Image mirrored from 066236-L-E90."
     },
     {
       "row": 31,
