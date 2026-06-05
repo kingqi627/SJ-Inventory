@@ -50,7 +50,7 @@ window.SJ_INVENTORY = {
       "salePrice": null,
       "discount": 55,
       "discountLabel": "55% off",
-      "image": “assets/products/004-034823-07-e23.jpg”
+      "image": “assets/products/004-034823-07-e23.jpg”，
       "hasPhoto": true,
       "sourceNote": "No photo yet"
     },
