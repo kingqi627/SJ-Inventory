@@ -4,7 +4,7 @@ window.SJ_INVENTORY = {
   "discountRange": "50%-80%",
   "totalProducts": 59,
   "totalQuantity": 371,
-  "missingImages": 6,
+  "missingImages": 2,
   "finishGuide": {
     "E23": "Glossy White",
     "E12": "Slate Gray",
@@ -777,9 +777,9 @@ window.SJ_INVENTORY = {
       "salePrice": 914.5,
       "discount": 50,
       "discountLabel": "50% off",
-      "image": null,
-      "hasPhoto": false,
-      "sourceNote": "No photo yet"
+      "image": "assets/products/047-e056124-w01.jpg",
+      "hasPhoto": true,
+      "sourceNote": "Image supplied as E056124-W01_S2"
     },
     {
       "row": 48,
@@ -806,12 +806,12 @@ window.SJ_INVENTORY = {
       "quantity": 3,
       "location": "R1A5: 3",
       "msrp": 3329.0,
-      "salePrice": 1165.15,
-      "discount": 65,
-      "discountLabel": "65% off",
-      "image": null,
-      "hasPhoto": false,
-      "sourceNote": "No photo yet"
+      "salePrice": 998.7,
+      "discount": 70,
+      "discountLabel": "70% off",
+      "image": "assets/products/049-e016117-e73.jpg",
+      "hasPhoto": true,
+      "sourceNote": "Same product photo as E026117-E40; finish differs"
     },
     {
       "row": 50,
@@ -981,13 +981,13 @@ window.SJ_INVENTORY = {
       "series": "Unity",
       "quantity": 1,
       "location": "R1A7: 1",
-      "msrp": null,
-      "salePrice": null,
-      "discount": 50,
-      "discountLabel": "50% off",
-      "image": null,
-      "hasPhoto": false,
-      "sourceNote": "No photo yet"
+      "msrp": 1599.0,
+      "salePrice": 319.8,
+      "discount": 80,
+      "discountLabel": "80% off",
+      "image": "assets/products/060-e047013-e23.jpg",
+      "hasPhoto": true,
+      "sourceNote": "Corrected code from E47013-E23; image supplied MSRP and discount manually confirmed."
     },
     {
       "row": 61,
@@ -1001,9 +1001,9 @@ window.SJ_INVENTORY = {
       "salePrice": null,
       "discount": 50,
       "discountLabel": "50% off",
-      "image": null,
-      "hasPhoto": false,
-      "sourceNote": "No photo yet"
+      "image": "assets/products/061-e056111-w01.jpg",
+      "hasPhoto": true,
+      "sourceNote": "Image supplied as E056124-W01_S2; applied to corrected code E056111-W01"
     }
   ]
 };
