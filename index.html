@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ronbow San Jose Seasonal Sale Inventory</title>
+  <meta name="description" content="Ronbow San Jose showroom in-stock seasonal sale inventory.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="poster-hero" aria-label="Ronbow seasonal sale poster">
+    <img src="assets/seasonal-sale-poster.png" alt="Ronbow seasonal sale poster">
+  </header>
+
+  <main class="inventory-shell">
+    <section class="intro">
+      <div>
+        <p class="eyebrow">San Jose Showroom</p>
+        <h1>Available In-Stock Inventory</h1>
+        <p class="lede">All listed inventory is currently shown at <strong>50%-80% off MSRP</strong>. First come, first served.</p>
+      </div>
+      <div class="stats" aria-label="Inventory summary">
+        <div><span id="statProducts">0</span><small>Styles</small></div>
+        <div><span id="statQty">0</span><small>Total Qty</small></div>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="Inventory filters">
+      <label class="search">
+        <span>Search inventory</span>
+        <input id="searchInput" type="search" placeholder="Search code, name, finish, series...">
+      </label>
+      <label class="toggle">
+        <input id="hideMissing" type="checkbox">
+        <span>Hide items without photos</span>
+      </label>
+    </section>
+
+    <section id="grid" class="product-grid" aria-live="polite"></section>
+  </main>
+
+  <dialog id="productDialog" class="product-dialog">
+    <button class="close" id="closeDialog" aria-label="Close">×</button>
+    <div class="dialog-layout">
+      <div class="image-stage">
+        <img id="dialogImage" alt="">
+        <div id="dialogPlaceholder" class="placeholder large">Photo coming soon</div>
+        <div class="zoom-tools" aria-label="Image zoom controls">
+          <button id="zoomOut" type="button">−</button>
+          <button id="zoomReset" type="button">Reset</button>
+          <button id="zoomIn" type="button">+</button>
+        </div>
+      </div>
+      <article class="dialog-copy">
+        <p id="dialogSeries" class="eyebrow"></p>
+        <h2 id="dialogName"></h2>
+        <dl>
+          <div><dt>Item Code</dt><dd id="dialogCode"></dd></div>
+          <div><dt>Finish</dt><dd id="dialogFinish"></dd></div>
+          <div><dt>MSRP</dt><dd id="dialogMsrp"></dd></div>
+          <div><dt>Sale Price</dt><dd id="dialogSale"></dd></div>
+          <div><dt>Discount</dt><dd id="dialogDiscount"></dd></div>
+          <div><dt>Quantity</dt><dd id="dialogQty"></dd></div>
+          <div><dt>Location</dt><dd id="dialogLocation"></dd></div>
+        </dl>
+      </article>
+    </div>
+  </dialog>
+
+  <script src="inventory-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
